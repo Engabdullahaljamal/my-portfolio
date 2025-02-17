@@ -15,7 +15,7 @@ function Hero({ theme }) {
 
                 <p>Agency-quality Webflow websites with the personal touch of a freelancer.
                 </p>
-                <button>Download Cv</button>
+                <a href="https://drive.google.com/file/d/1pbTgI_nTNSaKs28_5Q1ksokkcs6CnT_N/view?usp=drivesdk">Show Resume</a>
 
             </div>
             <img src={my_photo} alt="" />

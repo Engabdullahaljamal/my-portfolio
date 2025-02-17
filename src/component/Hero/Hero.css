@@ -78,7 +78,7 @@
     color: #43495B;
 }
 
-.hero button {
+.hero a {
     border: none;
     background-color: #0C96E2;
     padding: 10px 20px;
@@ -88,6 +88,7 @@
     color: white;
     font-size: 16px;
     text-align: center;
+    text-decoration: none;
 }
 
 .hero img {
