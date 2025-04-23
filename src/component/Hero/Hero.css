@@ -99,7 +99,7 @@
     border-radius: 50%;
     border: 8px solid #0C96E2;
     /* D3D5D6 */
-    z-index: 1;
+    z-index: 5;
     background-color: white;
 
 }
@@ -178,5 +178,13 @@
 @media screen and (max-width:600px) {
     .hero {
         padding: 100px 10px;
+    }
+}
+
+@media screen and (max-height:800px) {
+    .hero {
+
+        padding: 10px 10px;
+        padding-bottom: 30px;
     }
 }
