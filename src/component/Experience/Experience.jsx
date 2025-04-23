@@ -4,22 +4,6 @@ import './Experience.css'
 function Experience({ theme }) {
     const experience = [
         {
-            title: 'Mern Stack Developer Intern',
-            company: 'Focal X Agency',
-            company_href: 'https://www.focal-x.com/',
-            date: '08/2024 - 12/2024',
-            location: 'latakia, Syria',
-            desc: [
-                'ollaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
-                'Developed RESTful APIs to handle CRUD operations, user authentication, and third-party API integration, improving performance by 20%.',
-                'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and optimized rendering.',
-                'Leveraged MongoDB for database management, designing schemas, and implementing data models with Mongoose.',
-                'Enhanced backend performance by optimizing Express.js middleware and using Node.js to streamline server-side logic.',
-
-            ]
-
-        },
-        {
             title: 'FrontEnd Developer',
             company: 'Vica Web Solutions',
             company_href: 'https://vica.website/',
@@ -35,6 +19,23 @@ function Experience({ theme }) {
             ]
 
         },
+        {
+            title: 'Full Stack Developer',
+            company: 'Focal X Agency',
+            company_href: 'https://www.focal-x.com/',
+            date: '06/2024 - 12/2024',
+            location: 'latakia, Syria',
+            desc: [
+                'ollaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
+                'Developed RESTful APIs to handle CRUD operations, user authentication, and third-party API integration, improving performance by 20%.',
+                'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and optimized rendering.',
+                'Leveraged MongoDB for database management, designing schemas, and implementing data models with Mongoose.',
+                'Enhanced backend performance by optimizing Express.js middleware and using Node.js to streamline server-side logic.',
+
+            ]
+
+        },
+
         {
             title: 'Backend Developer Intern',
             company: 'Focal X Agency',

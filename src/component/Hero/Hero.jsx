@@ -8,14 +8,14 @@ function Hero({ theme }) {
                 <h1>
 
 
-                    <span>HEY!</span> I’m Abdullah,
-                    Frontend Developer
+                    <span>HEY!</span> I’m <span>Abdullah</span>,
+                    Full Stack Web Developer with a Frontend focus.
 
                 </h1>
 
-                <p>Agency-quality Webflow websites with the personal touch of a freelancer.
+                <p>Building modern web applications with clean code and great user experiences.
                 </p>
-                <a href="https://drive.google.com/file/d/1pbTgI_nTNSaKs28_5Q1ksokkcs6CnT_N/view?usp=drivesdk">Show Resume</a>
+                <a href="https://drive.google.com/file/d/1jsr16lqYK4KTz0xHHHry8wEqbsiTUD9w/view?usp=drivesdk">Show Resume</a>
 
             </div>
             <img src={my_photo} alt="" />

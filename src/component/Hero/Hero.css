@@ -63,10 +63,12 @@
     font-weight: 700;
     line-height: 60.5px;
     text-align: start;
+    z-index: 5;
 }
 
 .hero .hey h1 span {
     font-weight: 400;
+    color: #0C96E2;
 }
 
 .hero .hey p {
@@ -76,6 +78,7 @@
     text-align: left;
     width: 70%;
     color: #43495B;
+    z-index: 5;
 }
 
 .hero a {
