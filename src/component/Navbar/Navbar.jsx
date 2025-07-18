@@ -14,6 +14,7 @@ function Navbar({ seTheme, theme }) {
             const moon_icon_2 = document.getElementById('moon_icon_2')
             const sun_icon_2 = document.getElementById('sun_icon_2')
             seTheme('dark');
+            document.documentElement.classList.add('dark')
             moon_icon.style.display = 'none'
             sun_icon.style.display = 'block'
             moon_icon_2.style.display = 'none'
