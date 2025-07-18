@@ -10,20 +10,20 @@ function Navbar({ seTheme, theme }) {
 
         if (userPrefersDark) {
             const moon_icon = document.getElementById('moon_icon')
-            const sun_icon = document.getElementById('sun_icon') 
+            const sun_icon = document.getElementById('sun_icon')
             const moon_icon_2 = document.getElementById('moon_icon_2')
             const sun_icon_2 = document.getElementById('sun_icon_2')
             seTheme('dark');
-            moon_icon.style.display='none'
-            sun_icon.style.display='block'
-            moon_icon_2.style.display='none'
-            sun_icon_2.style.display='block'
+            moon_icon.style.display = 'none'
+            sun_icon.style.display = 'block'
+            moon_icon_2.style.display = 'none'
+            sun_icon_2.style.display = 'block'
         } else {
             seTheme('light');
-            moon_icon.style.display='block'
-            sun_icon.style.display='none'
-            moon_icon_2.style.display='block'
-            sun_icon_2.style.display='none'
+            moon_icon.style.display = 'block'
+            sun_icon.style.display = 'none'
+            moon_icon_2.style.display = 'block'
+            sun_icon_2.style.display = 'none'
         }
     }, [])
 
@@ -38,8 +38,7 @@ function Navbar({ seTheme, theme }) {
         moon_icon_2.style.display = "none"
         sun_icon_2.style.display = "block"
         seTheme('dark')
-
-
+        document.documentElement.classList.add('dark')
     }
 
     const light_theme = () => {
@@ -52,6 +51,7 @@ function Navbar({ seTheme, theme }) {
         moon_icon_2.style.display = "block"
         sun_icon_2.style.display = "none"
         seTheme('light')
+        document.documentElement.classList.remove('dark')
     }
     const show_list = () => {
         const list = document.getElementById('nav_list')
