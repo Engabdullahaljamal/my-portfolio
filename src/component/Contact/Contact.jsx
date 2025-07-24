@@ -25,7 +25,7 @@ function Contact({ theme }) {
         {
             icon: <IoLocationOutline />,
             title: 'Address',
-            value: 'Totowa,New Jersey,USA',
+            value: 'Hackensack,New Jersey,USA',
         },
 
     ]
