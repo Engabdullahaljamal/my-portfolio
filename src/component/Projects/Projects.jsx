@@ -45,7 +45,7 @@ function Projects({ theme }) {
             img: Apartment,
             title: 'Apartment Sales',
             desc_title: 'Html-Css3-React-Vite',
-            href: 'https://engabdullahaljamal.github.io/Task_5/',
+            href: 'https://engabdullahaljamal.github.io/Educational-platform/',
             desc: 'Built a landing page for apartment sales using Vite and React. Managed dynamic content with components and props while styling with Pure CSS. Ensured seamless user experience with full responsiveness across devices.'
         },
 
@@ -68,7 +68,7 @@ function Projects({ theme }) {
             img: mobile,
             title: 'mobile shop',
             desc_title: 'Html-Css3-React-Bootstrap',
-            href: 'https://engabdullahaljamal.github.io/Task6_2/',
+            href: 'https://engabdullahaljamal.github.io/Mobile-Phone-store/',
             desc: 'Built a responsive multi-page mobile shop using React. Fetched product data from APIs to deliver dynamic content and seamless user interaction. Ensured smooth performance across devices with an engaging UI.'
         },
         {
