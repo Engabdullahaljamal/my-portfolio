@@ -27,11 +27,13 @@ It showcases my skills, projects, and contact information in a clean, responsive
 
 ## 📁 Project Structure
 
-- `public/`: Static files
-- `src/assets/images/`: Image files
-- `src/components/`: All React components (About, Contact, Projects, etc.)
-- `App.jsx`, `main.jsx`: Entry point files
-- `vite.config.js`: Vite configuration
+public/               → Static files  
+src/assets/images/    → Image files  
+src/components/       → All React components (Hero, Contact, Cards, etc.)  
+App.jsx, main.jsx     → Entry point files  
+vite.config.js        → Vite configuration  
+
+---
 
 ## ⚙️ Installation & Setup
 
@@ -39,13 +41,14 @@ To run this project locally:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/engabdullahaljamal/my-portfolio.git
+git clone https://github.com/engabdullahaljamal/Apartment-Sales-Platform.git
 
 # 2. Navigate to the project folder
-cd my-portfolio
+cd Apartment-Sales-Platform
 
 # 3. Install dependencies
 npm install
 
 # 4. Start the development server
 npm run dev
+
