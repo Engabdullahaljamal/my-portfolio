@@ -45,10 +45,9 @@ function Projects({ theme }) {
             img: Apartment,
             title: 'Apartment Sales',
             desc_title: 'Html-Css3-React-Vite',
-            href: 'https://engabdullahaljamal.github.io/Educational-platform/',
+            href: 'https://engabdullahaljamal.github.io/Apartment-Sales-Platform/',
             desc: 'Built a landing page for apartment sales using Vite and React. Managed dynamic content with components and props while styling with Pure CSS. Ensured seamless user experience with full responsiveness across devices.'
         },
-
 
         {
             img: shoes,
