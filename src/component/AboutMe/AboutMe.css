@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+
 }
 
 .about_me .circles {
@@ -125,6 +125,7 @@
 }
 
 @media screen and (max-width:1398px) {
+
     .about_me .skills {
         margin-right: 0px !important;
     }
@@ -140,9 +141,13 @@
 
 }
 
-@media screen and (max-width:1317px) {
+@media screen and (max-width:1250px) {
     .about_me {
         gap: 100px;
+    }
+
+    .about_me {
+        flex-wrap: wrap;
     }
 }
 
@@ -262,6 +267,7 @@
         left: 60px;
         top: 140px;
     }
+
     #figma_img {
         right: 50px;
         top: 200px;

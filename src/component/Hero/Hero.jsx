@@ -15,7 +15,7 @@ function Hero({ theme }) {
 
                 <p>Building modern web applications with clean code and great user experiences.
                 </p>
-                <a href="https://drive.google.com/file/d/1jsr16lqYK4KTz0xHHHry8wEqbsiTUD9w/view?usp=drivesdk">Show Resume</a>
+                <a href="https://drive.google.com/file/d/1nvUkNnpUqRMMZl2CXdhIugAlePi9E4xm/view?usp=drivesdk">Show Resume</a>
 
             </div>
             <img src={my_photo} alt="" />

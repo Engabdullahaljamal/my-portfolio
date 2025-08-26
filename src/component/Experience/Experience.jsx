@@ -4,18 +4,33 @@ import './Experience.css'
 function Experience({ theme }) {
     const experience = [
         {
+            title: 'Software Engineering Trainee ',
+            company: 'Revature',
+            company_href: 'https://www.revature.com',
+            date: '2025 – Present',
+            location: 'Remote, USA',
+            desc: [
+                'Completed an intensive full-stack development program focused on Java, Spring Boot, Hibernate, REST APIs, JavaScript, Angular, SQL, and Git/GitHub.',
+                'Build and deploy full-stack applications following Agile/Scrum methodologies.',
+                'Developed backend services with Java and Spring Boot, integrating relational databases via Hibernate/JPA, reducing query response times by 20%.',
+                'Implement responsive front-end components using Angular and ensure seamless API integration.',
+                'Applied MVC design pattern with Spring Boot to organize backend logic, improving maintainability and scalability of applications.',
+                'Gain hands-on experience in unit testing (JUnit), version control (Git), and cloud deployment basics.',
+                'Applied knowledge of data structures and design patterns to write efficient, maintainable, and scalable applications.']
+        },
+        {
             title: 'FrontEnd Developer',
             company: 'Vica Web Solutions',
             company_href: 'https://vica.website/',
-            date: '04/2024 - 1/2025',
+            date: '01/2024 - 3/2025',
             location: 'Damascus, Syria',
             desc: [
-                'Utilized HTML, CSS, and JavaScript to create visually appealing and responsive web pages that met client requirements.',
-                'Continuously developing and managing single-page web applications with React.js.',
-                'Developed reusable components using React framework.',
-                'Translated detailed Figma designs into interactive and responsive web applications using React.js.',
-                'Integrating and handling RESTful APIs to fetch and display dynamic data within web applications.',
-                'Basic knowledge in using Next.js for frontend development, including server-side rendering and static site generation.',
+                'Built responsive single-page applications (SPAs) using HTML, CSS, JavaScript, and React.js, ensuring cross-device compatibility and improved performance.',
+                'Collaborated with UX/UI designers, converting design prototypes (such as Figma) into fully functional and responsive web applications.',
+                'Utilized Redux to manage complex application state, improving data flow and reducing bugs in React applications by 35%.',
+                'Integrated and handled RESTful APIs to fetch and display dynamic data within web applications.',
+                'Applied foundational Next.js features (SSR/SSG) to improve load times and SEO.',
+                'Used Git and GitHub for version control, collaborating on features via pull requests and code reviews.',
             ]
 
         },
@@ -23,53 +38,37 @@ function Experience({ theme }) {
             title: 'Full Stack Developer',
             company: 'Focal X Agency',
             company_href: 'https://www.focal-x.com/',
-            date: '06/2024 - 12/2024',
-            location: 'latakia, Syria',
+            date: '01/2024 - 12/2024',
+            location: 'Latakia, Syria',
             desc: [
-                'ollaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
+                'Collaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
                 'Developed RESTful APIs to handle CRUD operations, user authentication, and third-party API integration, improving performance by 20%.',
-                'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and optimized rendering.',
+                'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and reducing rendering issues by 25%.',
                 'Leveraged MongoDB for database management, designing schemas, and implementing data models with Mongoose.',
                 'Enhanced backend performance by optimizing Express.js middleware and using Node.js to streamline server-side logic.',
+                'Utilized PHP (Laravel framework) in certain projects to deliver maintainable backend services using MVC architecture.',
 
             ]
 
         },
 
         {
-            title: 'Backend Developer Intern',
+            title: 'Full Stack Developer Intern',
             company: 'Focal X Agency',
             company_href: 'https://www.focal-x.com/',
-            date: '02/2024 - 06/2024',
-            location: 'latakia, Syria',
+            date: '05/2023 - 01/2024',
+            location: 'Latakia, Syria',
             desc: [
-                ' Utilized Laravel framework, PHP, and MVC design patterns for backend development.',
-                'Streamlined API integration for seamless communication between frontend and backend systems.',
-                'Developed RESTful APIs that facilitated seamless data exchange between clients and servers in a distributed environment.',
-                'Managed efficient SQL queries and data transport.',
-                'Used Git and GitHub for version control, collaborating on features via pull requests and code reviews.',
-                'Participated in daily stand-ups and sprint planning as part of Agile development methodology.'
-
-            ]
-
-        },
-        {
-            title: 'FrontEnd Developer Intern',
-            company: 'Focal X Agency',
-            company_href: 'https://www.focal-x.com/',
-            date: '07/2023 - 02/2024',
-            location: 'latakia, Syria',
-            desc: [
+                'Utilized Laravel (PHP) and MVC design patterns to build backend services, reducing code duplication by 25%.',
                 'Coded using HTML, CSS and JavaScript to develop features for both mobile and desktop platforms. Produced websites compatible with multiple browsers.',
-                'Actively developing and maintaining single-page web applications using React.js.',
-                'Worked closely with UX/UI designers to translate their designs into functional web applications.',
-                'Collaborated with back-end developers to improve website functionality and integrate new features.',
-                'Utilized version control systems such as Git to track changes throughout the development process.',
-                'Optimized site content for mobile devices using responsive design techniques.',
-
+                'Developed and integrated RESTful APIs to enable seamless data exchange and improve communication between frontend and backend systems.',
+                'Managed efficient SQL queries and data transport.',
+                'Participated in daily stand-ups and sprint planning as part of Agile development methodology.',
+                'Optimized site content for mobile devices using responsive design techniques.'
             ]
 
         },
+
     ]
     return (
         <div className={`experience ${theme}`} id='experience'>

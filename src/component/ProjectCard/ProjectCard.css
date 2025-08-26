@@ -1,6 +1,5 @@
 .project_card {
-    max-width: 380px !important;
-
+    max-width: 344px !important;
     box-shadow: 0 0 7px rgb(128, 124, 124);
     border-radius: 7px;
     height: 550px;
