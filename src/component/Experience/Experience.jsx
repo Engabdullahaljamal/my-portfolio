@@ -22,7 +22,7 @@ function Experience({ theme }) {
             title: 'FrontEnd Developer',
             company: 'Vica Web Solutions',
             company_href: 'https://vica.website/',
-            date: '01/2024 - 3/2025',
+            date: '03/2024 - 4/2025',
             location: 'Damascus, Syria',
             desc: [
                 'Built responsive single-page applications (SPAs) using HTML, CSS, JavaScript, and React.js, ensuring cross-device compatibility and improved performance.',
@@ -38,7 +38,7 @@ function Experience({ theme }) {
             title: 'Full Stack Developer',
             company: 'Focal X Agency',
             company_href: 'https://www.focal-x.com/',
-            date: '01/2024 - 12/2024',
+            date: '06/2023 - 03/2024',
             location: 'Latakia, Syria',
             desc: [
                 'Collaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
@@ -56,7 +56,7 @@ function Experience({ theme }) {
             title: 'Full Stack Developer Intern',
             company: 'Focal X Agency',
             company_href: 'https://www.focal-x.com/',
-            date: '05/2023 - 01/2024',
+            date: '01/2023 - 06/2023',
             location: 'Latakia, Syria',
             desc: [
                 'Utilized Laravel (PHP) and MVC design patterns to build backend services, reducing code duplication by 25%.',
