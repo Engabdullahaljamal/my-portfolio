@@ -7,7 +7,7 @@ function Experience({ theme }) {
             title: 'Software Engineering Trainee ',
             company: 'Revature',
             company_href: 'https://www.revature.com',
-            date: '2025 – Present',
+            date: '08/2025 – Present',
             location: 'Remote, USA',
             desc: [
                 'Completed an intensive full-stack development program focused on Java, Spring Boot, Hibernate, REST APIs, JavaScript, Angular, SQL, and Git/GitHub.',
