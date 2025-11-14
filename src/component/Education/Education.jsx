@@ -4,15 +4,29 @@ import './Education.css'
 function Education({ theme }) {
     const education = [
         {
+            title: 'Master of Science in Computer Science ',
+            company: 'Georgia Institute of Technology',
+            company_href: 'https://www.gatech.edu',
+            date: '01/2026',
+            location: 'Online, GA, USA',
+            desc: [
+                'Starting Spring 2026 (Part Time)',
+                'Focus: Machine Learning, Artificial Intelligence, and Data-Driven Systems.',
+                'Advancing skills in algorithmic modeling, intelligent automation, and scalable software design.',
+            
+
+            ]
+
+        },
+        {
             title: 'Master of Science in Web Science',
             company: 'Syrian Virtual University',
             company_href: 'https://www.svuonline.org/en/program/mws',
-            date: '03/2023 - Present',
+            date: '03/2023 - 11/2025',
             location: 'latakia, Syria',
             desc: [
-                'Completed all coursework with a focus on Web Development,Web Engineering, and Advanced JavaScript',
-                'Currently working on Masters thesis titled "Analyzing cyber attacks and developing a framework for early detection and rapid response"',
-                'Expected Graduation: 4/2025',
+                'Focus: Web Development, Web Engineering, and Software Development Life Cycle (SDLC).',
+                'Thesis: “Analyzing Cyber Attacks and Developing a Framework for Early Detection and Rapid Response using Machine Learning algorithms to classify and predict malicious network behavior.”',
                 'GPA 3.28 / 4.0',
 
             ]

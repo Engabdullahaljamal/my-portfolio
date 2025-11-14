@@ -4,11 +4,25 @@ import './Experience.css'
 function Experience({ theme }) {
     const experience = [
         {
-            title: 'Software Engineering Trainee ',
+            title: 'Software Engineering Intern (MERN) ',
+            company: 'Per Scholas',
+            company_href: 'https://perscholas.org/',
+            date: '11/2025 – Present',
+            location: 'Remote, NJ, USA',
+            desc: [
+                 'Collaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
+                'Developed RESTful APIs to handle CRUD operations, user authentication, and third-party API integration, improving performance by 20%.',
+                'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and reducing rendering issues by 25%.',
+                'Leveraged MongoDB for database management, designing schemas, and implementing data models with Mongoose.',
+                'Enhanced backend performance by optimizing Express.js middleware and using Node.js to streamline server-side logic.',
+                'Utilized PHP (Laravel framework) in certain projects to deliver maintainable backend services using MVC architecture.',]
+        },
+        {
+            title: 'Software Engineering Intern (JAVA)',
             company: 'Revature',
             company_href: 'https://www.revature.com',
-            date: '08/2025 – Present',
-            location: 'Remote, USA',
+            date: '08/2025 – 11/2025',
+            location: 'Remote, VA, USA',
             desc: [
                 'Completed an intensive full-stack development program focused on Java, Spring Boot, Hibernate, REST APIs, JavaScript, Angular, SQL, and Git/GitHub.',
                 'Build and deploy full-stack applications following Agile/Scrum methodologies.',
@@ -19,7 +33,7 @@ function Experience({ theme }) {
                 'Applied knowledge of data structures and design patterns to write efficient, maintainable, and scalable applications.']
         },
         {
-            title: 'FrontEnd Developer',
+            title: 'FrontEnd Developer (React)',
             company: 'Vica Web Solutions',
             company_href: 'https://vica.website/',
             date: '03/2024 - 4/2025',
@@ -34,32 +48,29 @@ function Experience({ theme }) {
             ]
 
         },
+        // {
+        //     title: 'Full Stack Developer',
+        //     company: 'Focal X Agency',
+        //     company_href: 'https://www.focal-x.com/',
+        //     date: '06/2023 - 03/2024',
+        //     location: 'Latakia, Syria',
+        //     desc: [
+               
+
+        //     ]
+
+        // },
+
         {
-            title: 'Full Stack Developer',
+            title: 'Full Stack Developer (PHP + React)',
             company: 'Focal X Agency',
             company_href: 'https://www.focal-x.com/',
-            date: '06/2023 - 03/2024',
+            date: '01/2023 - 03/2024',
             location: 'Latakia, Syria',
             desc: [
-                'Collaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
-                'Developed RESTful APIs to handle CRUD operations, user authentication, and third-party API integration, improving performance by 20%.',
+                'Utilized Laravel (PHP) and MVC design patterns to build backend services,reducing code duplication by 25%.',
                 'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and reducing rendering issues by 25%.',
                 'Leveraged MongoDB for database management, designing schemas, and implementing data models with Mongoose.',
-                'Enhanced backend performance by optimizing Express.js middleware and using Node.js to streamline server-side logic.',
-                'Utilized PHP (Laravel framework) in certain projects to deliver maintainable backend services using MVC architecture.',
-
-            ]
-
-        },
-
-        {
-            title: 'Full Stack Developer Intern',
-            company: 'Focal X Agency',
-            company_href: 'https://www.focal-x.com/',
-            date: '01/2023 - 06/2023',
-            location: 'Latakia, Syria',
-            desc: [
-                'Utilized Laravel (PHP) and MVC design patterns to build backend services, reducing code duplication by 25%.',
                 'Coded using HTML, CSS and JavaScript to develop features for both mobile and desktop platforms. Produced websites compatible with multiple browsers.',
                 'Developed and integrated RESTful APIs to enable seamless data exchange and improve communication between frontend and backend systems.',
                 'Managed efficient SQL queries and data transport.',

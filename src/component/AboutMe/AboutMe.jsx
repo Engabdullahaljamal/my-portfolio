@@ -11,20 +11,13 @@ import SkillLine from '../SkillLine/SkillLine'
 function AboutMe({ theme }) {
     const skills = [
         {
-            skill_name: 'HTML5',
+            skill_name: 'HTML5 / CSS',
             skill_percent: '90%',
             skill_left: '88%',
 
 
 
-        },
-        {
-            skill_name: 'CSS3',
-            skill_percent: '85%',
-            skill_left: '83%',
-
-
-        },
+        },,
         {
             skill_name: 'Javascript',
             skill_percent: '95%',
@@ -33,21 +26,28 @@ function AboutMe({ theme }) {
 
         },
         {
-            skill_name: 'React',
+            skill_name: 'React.js',
             skill_percent: '90%',
             skill_left: '88%',
 
 
         },
+           {
+            skill_name: 'Node.js',
+            skill_percent: '85%',
+            skill_left: '83%',
+
+
+        },
         {
-            skill_name: 'Next',
+            skill_name: 'Express.js',
             skill_percent: '80%',
             skill_left: '78%',
 
 
         },
         {
-            skill_name: 'PHP-Laravel',
+            skill_name: 'Java',
             skill_percent: '80%',
             skill_left: '78%',
 
