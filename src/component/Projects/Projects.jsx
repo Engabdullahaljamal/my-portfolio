@@ -38,7 +38,7 @@ function Projects({ theme }) {
             img: villa,
             title: 'Villa',
             desc_title: 'Html-Css3-React-Vite',
-            href: 'https://engabdullahaljamal.github.io/Task3_Villa/',
+            href: 'https://engabdullahaljamal.github.io/real-estate-platform/',
             desc: 'Designed and developed a multi-page villa sales website using Vite and Pure CSS. Built dynamic components, filter buttons, and a hero slider to enhance interactivity. Optimized for all screen sizes to provide a seamless browsing experience across devices.'
         },
         {
