@@ -4,7 +4,7 @@ import './Experience.css'
 function Experience({ theme }) {
     const experience = [
         {
-            title: 'Software Engineering Intern (MERN) ',
+            title: 'Software Engineering Intern <MERN> ',
             company: 'Per Scholas',
             company_href: 'https://perscholas.org/',
             date: '11/2025 – Present',
@@ -18,7 +18,7 @@ function Experience({ theme }) {
                 'Utilized PHP (Laravel framework) in certain projects to deliver maintainable backend services using MVC architecture.',]
         },
         {
-            title: 'Software Engineering Intern (JAVA)',
+            title: 'Software Engineering Intern <JAVA>',
             company: 'Revature',
             company_href: 'https://www.revature.com',
             date: '08/2025 – 11/2025',
@@ -33,7 +33,7 @@ function Experience({ theme }) {
                 'Applied knowledge of data structures and design patterns to write efficient, maintainable, and scalable applications.']
         },
         {
-            title: 'FrontEnd Developer (React)',
+            title: 'FrontEnd Developer <React>',
             company: 'Vica Web Solutions',
             company_href: 'https://vica.website/',
             date: '03/2024 - 4/2025',
@@ -55,14 +55,13 @@ function Experience({ theme }) {
         //     date: '06/2023 - 03/2024',
         //     location: 'Latakia, Syria',
         //     desc: [
-               
 
         //     ]
 
         // },
 
         {
-            title: 'Full Stack Developer (PHP + React)',
+            title: 'Full Stack Developer <PHP + React>',
             company: 'Focal X Agency',
             company_href: 'https://www.focal-x.com/',
             date: '01/2023 - 03/2024',
