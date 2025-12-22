@@ -166,3 +166,8 @@
         font-size: 12px !important;
     }
 }
+
+.contact.dark .contact_form input::-webkit-contacts-auto-fill-button,
+.contact.dark .contact_form input::-webkit-credentials-auto-fill-button {
+    filter: invert(1);
+}

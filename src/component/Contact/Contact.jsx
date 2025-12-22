@@ -25,7 +25,7 @@ function Contact({ theme }) {
         {
             icon: <IoLocationOutline />,
             title: 'Address',
-            value: 'Hackensack,New Jersey,USA',
+            value: 'Hackensack, New Jersey, USA',
         },
 
     ]
@@ -47,15 +47,14 @@ function Contact({ theme }) {
                         })
                     }
                 </div>
-                <form className='contact_form'>
+                <form className='contact_form' action="https://formspree.io/f/xlgrodev" method="POST">
                     <div>
-                        <input type="text" placeholder='Full name' />
-                        <input type="email" placeholder='Your email' />
+                        <input type="text" name="name" placeholder='Full name' required />
+                        <input type="email" name="email" placeholder='Your email' required />
                     </div>
-                    <input type="text" placeholder='Phone number' />
+                    <input type="text" name="phone" placeholder='Phone number' />
                     <textarea name="message" id="" placeholder='Message'></textarea>
-                    <MainButton button={button} />
-
+                    <button type="submit" className="main_button">Send Message</button>
                 </form>
             </div>
         </div>
