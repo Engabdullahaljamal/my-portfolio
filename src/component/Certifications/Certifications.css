@@ -32,7 +32,6 @@
     flex-wrap: wrap;
 
 }
-
 @media screen and (max-width:800px) {
     .certifications {
         padding: 100px 20px;
