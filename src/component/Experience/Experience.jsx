@@ -4,18 +4,19 @@ import './Experience.css'
 function Experience({ theme }) {
     const experience = [
         {
-            title: 'Software Engineering Intern <MERN> ',
-            company: 'Per Scholas',
-            company_href: 'https://perscholas.org/',
+            title: 'Software Engineer <MERN> ',
+            company: ' Sunrise USA Organization ',
+            company_href: 'https://sunrise-usa.org',
             date: '11/2025 – Present',
-            location: 'Remote, NJ, USA',
+            location: 'Ramsey, NJ, USA',
             desc: [
-                 'Collaborated with a team of developers to build and maintain full-stack web applications using MongoDB, Express.js, React, and Node.js (MERN).',
+                'Design and implement donation campaign websites using the MERN stack (MongoDB, Express, React, Node.js).',
+                'Develop and integrate secure donation workflows using Qgiv with Bloomerang CRM.',
                 'Developed RESTful APIs to handle CRUD operations, user authentication, and third-party API integration, improving performance by 20%.',
-                'Implemented responsive UI components using React.js and React Hooks, ensuring cross-browser compatibility and reducing rendering issues by 25%.',
-                'Leveraged MongoDB for database management, designing schemas, and implementing data models with Mongoose.',
-                'Enhanced backend performance by optimizing Express.js middleware and using Node.js to streamline server-side logic.',
-                'Utilized PHP (Laravel framework) in certain projects to deliver maintainable backend services using MVC architecture.',]
+                'Optimize and maintain the organization’s main website, improving overall performance by ~35%.',
+                'Maintain and optimize internal website performance, security, and content updates.',
+                'Deploy updates to Microsoft Azure using CI/CD practices.',
+                'Administer databases to enhance data accuracy and streamline operational workflows.',]
         },
         {
             title: 'Software Engineering Intern <JAVA>',
